@@ -8,6 +8,8 @@ require 'src/controller/AllAdsController.php';
 require 'src/controller/AdController.php';
 require 'src/controller/NewAdController.php';
 require 'src/controller/ErrorController.php';
+require 'src/model/Model.php';
+require 'src/service/DatabaseAcces.php';
 /**
  * recupéré la valeur de la super global get qui recupéré la variable page
  */
