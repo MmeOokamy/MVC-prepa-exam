@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13c17438-712a-4319-85c8-2f05392f799b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/me123-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/me123-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/me123.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/DatabaseAcces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ad.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ads.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/newAd.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/img/database.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AdController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AdController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AllAdsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AllAdsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/NewAdController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/NewAdController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +68,7 @@
       <workItem from="1607334894796" duration="8395000" />
       <workItem from="1607347900048" duration="3382000" />
       <workItem from="1607351331802" duration="11278000" />
+      <workItem from="1607373929273" duration="837000" />
     </task>
     <servers />
   </component>
