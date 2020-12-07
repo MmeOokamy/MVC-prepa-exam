@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13c17438-712a-4319-85c8-2f05392f799b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/public/fonts/me123-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/fonts/me123-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/fonts/me123.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ad.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ads.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/newAd.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/img/database.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AdController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AdController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AllAdsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AllAdsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/NewAdController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/NewAdController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,29 +34,36 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lJyp7ZfeJLaxfnUAWM98CwJhz4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/asset/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/fonts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="ics" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\MVC-prepa-exam\src\public\fonts" />
       <recent name="D:\Dev\Prepa exam\MVC-prepa-exam\src\asset\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\Prepa exam\MVC-prepa-exam\src\public" />
       <recent name="D:\Dev\Prepa exam\src" />
     </key>
   </component>
@@ -52,11 +76,16 @@
       <option name="presentableId" value="Default" />
       <updated>1607329668985</updated>
       <workItem from="1607329670063" duration="2125000" />
-      <workItem from="1607334894796" duration="4821000" />
+      <workItem from="1607334894796" duration="8395000" />
+      <workItem from="1607347900048" duration="3382000" />
+      <workItem from="1607351331802" duration="1920000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
