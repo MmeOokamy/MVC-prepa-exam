@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13c17438-712a-4319-85c8-2f05392f799b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/asset/img/database.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/AdController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/AllAdsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/NewAdController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607329668985</updated>
       <workItem from="1607329670063" duration="2125000" />
-      <workItem from="1607334894796" duration="1689000" />
+      <workItem from="1607334894796" duration="3390000" />
     </task>
     <servers />
   </component>
