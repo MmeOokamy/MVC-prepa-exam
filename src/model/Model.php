@@ -24,4 +24,21 @@ class Model
             var_dump('erreur lors de la requête sql :' . $e->getMessage());
         }
     }
+    public function addNewAd($title, $desc, $img, $price){
+
+        try {
+            $request = $this->handle->prepare('INSERT INTO `ads`(`ads_title`, `ads_dcs`,`ads_img`, `ads_price`,`id_user`,`id_category`) VALUES (?, ?, ?, ?, ?, ?)');
+
+            $request->execute(array(
+                $title,
+                $desc,
+                $img,
+                $price,
+                1,
+                1
+            ));
+        } catch (PDOException $e){
+            var_dump('erreur lors de la requête sql :' . $e->getMessage());
+        }
+    }
 }
