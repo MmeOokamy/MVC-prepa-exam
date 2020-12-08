@@ -37,14 +37,21 @@ foreach ($route as $routeValue => $className) {
         $controller = new $className;
         $controller->manage();
         break;
-
     }
 }
 /**
  * si la variable controller n'existe pas dans ce cas la
  * on instancie le controller par default ( ex : erreur 404)
  */
-if (!isset($controller)){
-    $controller = new ErrorController();
+if (empty($controller)) {
+    $controller = new HomeController();
     $controller->manage();
+}
+
+/**
+ * ne fonctionne pas mais c'est rigolo
+ */
+if (!isset($controller)){
+        $controller = new ErrorController();
+        $controller->manage();
 }

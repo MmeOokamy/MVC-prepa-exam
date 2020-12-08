@@ -9,6 +9,7 @@ class ErrorController
         $this->title = "Too bad :(";
     }
     function manage(){
+
         include (__DIR__ . "./../view/404.php");
 
     }

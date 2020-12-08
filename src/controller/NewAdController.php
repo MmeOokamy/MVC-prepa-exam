@@ -16,7 +16,7 @@ class NewAdController
         if(isset($_POST['title']) && !empty($_POST['title'])){
 
             $this->model->addNewAd($_POST['title'], $_POST['desc'], $_POST['img'], $_POST['price']);
-        } 
+        }
 
         include (__DIR__ . "./../view/newAd.php");
     }

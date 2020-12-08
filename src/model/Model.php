@@ -11,7 +11,8 @@ class Model
         $this->handle = $db->getHandle();
     }
 
-    public function addNewUser($email, $pswd){
+    public function addNewUser($email, $pswd)
+    {
 
         try {
             $request = $this->handle->prepare('INSERT INTO `user`(`user_email`, `user_pswd`) VALUES (?, ?)');
@@ -20,11 +21,13 @@ class Model
                 $email,
                 $pswd
             ));
-        } catch (PDOException $e){
+        } catch (PDOException $e) {
             var_dump('erreur lors de la requête sql :' . $e->getMessage());
         }
     }
-    public function addNewAd($title, $desc, $img, $price){
+
+    public function addNewAd($title, $desc, $img, $price)
+    {
 
         try {
             $request = $this->handle->prepare('INSERT INTO `ads`(`ads_title`, `ads_dcs`,`ads_img`, `ads_price`,`id_user`,`id_category`) VALUES (?, ?, ?, ?, ?, ?)');
@@ -37,8 +40,24 @@ class Model
                 1,
                 1
             ));
-        } catch (PDOException $e){
+        } catch (PDOException $e) {
             var_dump('erreur lors de la requête sql :' . $e->getMessage());
         }
+    }
+
+    public function allAdsList()
+    {
+        try {
+            //Créer une méthode dans le model permettant la récupération des annonces
+            $request = $this->handle->prepare('SELECT * FROM `ads`');
+            $request->execute();
+
+            return $request->fetchAll();
+
+        } catch (PDOException $e) {
+            var_dump('erreur lors de la requête sql :' . $e->getMessage());
+        }
+
+
     }
 }

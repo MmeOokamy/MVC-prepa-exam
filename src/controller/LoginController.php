@@ -25,10 +25,6 @@ class LoginController
         }
 
 
-
-
-
-
         include (__DIR__ . "./../view/login.php");
 
     }
