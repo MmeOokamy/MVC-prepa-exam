@@ -42,6 +42,7 @@ class Model
             ));
         } catch (PDOException $e) {
             var_dump('erreur lors de la requête sql :' . $e->getMessage());
+            die();
         }
     }
 
@@ -56,21 +57,22 @@ class Model
 
         } catch (PDOException $e) {
             var_dump('erreur lors de la requête sql :' . $e->getMessage());
+            die();
         }
-
     }
 
-    public function singleAds()
+    public function singleAds(int $id)
     {
         try {
             //Créer une méthode dans le model permettant la récupération des annonces
-            $request = $this->handle->prepare('SELECT * FROM `ads` WHERE `ads_id`= ' $id);
-            $request->execute();
+            $request = $this->handle->prepare('SELECT * FROM `ads` WHERE `ads_id`= :id');
+            $request->execute([':id' => $id]);
 
-            return $request->fetch();
+            return $request->fetchAll();
 
         } catch (PDOException $e) {
             var_dump('erreur lors de la requête sql :' . $e->getMessage());
+            die();
         }
     }
 }
