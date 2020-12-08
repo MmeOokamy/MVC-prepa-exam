@@ -58,6 +58,19 @@ class Model
             var_dump('erreur lors de la requête sql :' . $e->getMessage());
         }
 
+    }
 
+    public function singleAds()
+    {
+        try {
+            //Créer une méthode dans le model permettant la récupération des annonces
+            $request = $this->handle->prepare('SELECT * FROM `ads` WHERE `ads_id`= ' $id);
+            $request->execute();
+
+            return $request->fetch();
+
+        } catch (PDOException $e) {
+            var_dump('erreur lors de la requête sql :' . $e->getMessage());
+        }
     }
 }
