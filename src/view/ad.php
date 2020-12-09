@@ -17,6 +17,12 @@
             <p class="card-text"><?= $ad['ads_dcs'] ?></p>
             <img src="  <?= $ad['ads_img'] ?>" alt="<?= $ad['ads_title'] ?>">
         </div>
+        <div>
+            <form method="post">
+               <input type="hidden" name="delete" value="<?= $ad['ads_id'] ?>">
+                <button type="submit">Delete</button>
+            </form>
+        </div>
     </div>
 
 <?php endforeach;?>

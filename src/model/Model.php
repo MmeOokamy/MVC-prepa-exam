@@ -75,4 +75,10 @@ class Model
             die();
         }
     }
+
+    public function delete(int $id)
+    {
+            $request = $this->handle->prepare('DELETE FROM `ads` WHERE `ads_id`= :id');
+            $request->execute([':id' => $id]);
+    }
 }
